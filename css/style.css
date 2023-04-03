@@ -1,0 +1,368 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Strong-Cyan: hsl(171, 66%, 44%);
+  --Light-Blue: hsl(233, 100%, 69%);
+  --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+  --Grayish-Blue: hsl(201, 11%, 66%);
+  --white: white;
+  --font-family: "Bai Jamjuree", sans-serif;
+  --Font-size: 18px;
+}
+
+body {
+  background-image: url(../assets/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: var(--font-family);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  padding: 0 1.5rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin-top: 6rem;
+  text-align: center;
+}
+
+.main-title-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.main-title {
+  font-size: 1.8rem;
+}
+
+.main-text {
+  max-width: 37rem;
+}
+
+.button-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.4rem;
+  text-align: center;
+}
+
+.button {
+  padding: 1rem 4rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  color: var(--white);
+  width: 18rem;
+  font-weight: 900;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  opacity: 80%;
+  transition: all 0.3s;
+}
+
+.ios {
+  background-color: var(--Strong-Cyan);
+  box-shadow: 0 6px 20px -8px var(--Strong-Cyan);
+  border-bottom: 0.2rem solid rgb(0, 163, 163);
+}
+
+.mac {
+  background-color: var(--Light-Blue);
+  box-shadow: 0 6px 20px -8px var(--Light-Blue);
+  border-bottom: 0.2rem solid rgb(86, 86, 255);
+}
+
+.article-one {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.article-one-container-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.article-one-container-one p {
+  max-width: 40rem;
+}
+
+.image-computer {
+  width: 100%;
+  max-width: 40rem;
+}
+
+.article-one-container-two {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.article-one-container-two-items {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  text-align: center;
+  max-width: 30rem;
+}
+
+.article-one-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.article-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.article-two-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+.article-two-container p {
+  max-width: 40rem;
+}
+
+.image-devices {
+  width: 100%;
+  max-width: 50rem;
+}
+
+.article-three {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.article-three-container-one {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+}
+
+.article-three-container-two {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  align-items: center;
+}
+
+.article-three-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  text-align: center;
+  max-width: 20rem;
+}
+
+.article-three-container-three {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  padding: 0 1rem;
+}
+
+.article-four {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  padding-bottom: 10rem;
+}
+
+.article-four-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+}
+
+.article-four-container p {
+  max-width: 40rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  background-color: rgb(241, 241, 241);
+  padding: 2rem 2rem;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+}
+
+.logo-footer {
+  width: 20rem;
+}
+
+.footer-links-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.footer-links-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--Dark-Grayish-Blue);
+  transition: all 0.3s;
+}
+
+.link:hover {
+  color: var(--Strong-Cyan);
+  transition: all 0.2s;
+}
+
+.logo-footer {
+  width: 3rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 2rem;
+}
+
+.fa-brands {
+  font-size: 1.3rem;
+  color: var(--Dark-Grayish-Blue);
+  transition: all 0.3s;
+}
+
+.fa-brands:hover {
+  color: var(--Strong-Cyan);
+  transition: all 0.2s;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--Dark-Grayish-Blue);
+}
+
+p {
+  color: var(--Grayish-Blue);
+}
+
+@media (min-width: 647px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    padding: 2rem 1.5rem 2rem;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .footer-links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    text-align: start;
+  }
+}
+
+@media (min-width: 823px) {
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1004px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    padding: 2rem 0 2rem;
+  }
+}
+@media (min-width: 1216px) {
+  .article-one-container-two {
+    margin-left: -15rem;
+    align-items: center;
+  }
+
+  .article-one-container-two-items {
+    gap: 3rem;
+    text-align: start;
+    max-width: 30rem;
+  }
+
+  .article-three-container-three {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    padding: 0 0rem;
+  }
+
+  .footer-links-container {
+    gap: 2rem;
+  }
+}
